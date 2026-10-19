@@ -1,44 +1,41 @@
-_# Traffic Light Controller Using SystemVerilog and Vivado
+# 🚦 Traffic Light Controller Using SystemVerilog and Vivado
 
-## Overview
-This project implements a finite state machine (FSM) for traffic light control using SystemVerilog and AMD Xilinx Vivado.
+## 📌 Overview
+A four-state Finite State Machine (FSM) based traffic light controller designed using SystemVerilog and simulated in AMD Xilinx Vivado.
 
-## Objectives
-- Design a sequential digital system using an FSM.
-- Implement state transitions based on clock, reset, and input conditions.
-- Understand state encoding and output logic.
-- Practice RTL design and simulation using Vivado.
-
-## Tools Used
-- AMD Xilinx Vivado
+## 🛠️ Tools Used
 - SystemVerilog
-- RTL simulation
+- AMD Xilinx Vivado
+- RTL Simulation
 
-## Design Details
-- Design type: Finite State Machine (FSM)
-- Number of states: 4
-- Inputs: Clock, reset, and control inputs
-- Outputs: 4-bit output vector
-- Reset: Active-high asynchronous reset (verify against the final source code)
+## ⚙️ Design Features
+- Four-state FSM
+- Clocked state transitions
+- Reset functionality
+- Traffic light control for two roads
+- Green, yellow, and red light encodings
 
-## Verification
-The design can be verified using a SystemVerilog testbench and Vivado simulation. Add simulation screenshots and describe the test cases after verifying the design.
+## 📊 State Diagram
+![Traffic Light State Diagram](Traffic_Light_state_diagram.jpg)
 
-## Project Structure
-- `traffic_light.sv` — RTL design
-- `traffic_light_tb.sv` — Testbench, if included
-- `images/` — Simulation screenshots
+## 🔌 RTL Design
+![Traffic Light RTL Design](Traffic_Light_RTL_Design.jpg)
 
-## Learning Outcomes
-- FSM design and state transitions
-- Sequential logic using SystemVerilog
-- RTL simulation and debugging in Vivado
+## 🧪 Simulation Results
+![Traffic Light Simulation Waveform](Traffic_Light_simulation.jpg)
 
-## Future Improvements
-- Add a complete testbench with multiple input scenarios.
-- Verify all state transitions and reset behavior.
-- Extend the design with pedestrian crossing control or a configurable timing mechanism.
+## 📁 Project Files
+- `Traffic_Light.SV` — Main SystemVerilog design
+- `Traffic_Light_tb.sv` — Testbench
+- `Traffic_Light_RTL_Design.jpg` — RTL schematic
+- `Traffic_Light_simulation.jpg` — Simulation waveform
+- `Traffic_Light_state_diagram.jpg` — State diagram
 
-## Author
-Electronics and Communication Engineering student
-_
+## 🎯 Learning Outcomes
+- Finite State Machine design
+- Sequential logic and state transitions
+- SystemVerilog coding
+- Simulation and debugging using Vivado
+
+## 👨‍💻 Author
+Electronics and Communication Engineering Student
